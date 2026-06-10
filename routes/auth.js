@@ -80,6 +80,6 @@ router.post("/login", (req, res) => {
 
 });
 
-console.log(router.stack);
+
 
 module.exports = router;

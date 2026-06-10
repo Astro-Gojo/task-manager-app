@@ -27,12 +27,6 @@ app.use(express.static("public"));
 app.get("/", (req, res) => {
     res.send("Task Manager Server Running");
 });
-app.get("/hello", (req, res) => {
-    res.send("HELLO WORLD");
-});
-app.get("/test2", (req, res) => {
-    res.send("TEST2 WORKS");
-});
 app.post("/register2", (req, res) => {
     res.send("REGISTER2 WORKS");
 });

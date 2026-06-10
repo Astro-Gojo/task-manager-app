@@ -5,7 +5,7 @@ const router = express.Router();
 
 router.post("/create", (req, res) => {
 
-    console.log(req.body);
+    
 
     const { title } = req.body;
 
